@@ -1,0 +1,26 @@
+Question: Create your own resume data in JSON format
+
+Sol:
+
+//RESUME
+
+let resume= {
+
+    fullname: 'Shaik Kothacheruvu Shabaz',
+    qualification: 'B.Tech Mechanical Engineering',
+    passOutYear: 2020,
+    CGPA: 9.33,
+    employed: true,
+    currentCompany: 'Amazon',
+    designation: 'Product Compliance Sr. Associate',
+    skills: [{ 
+        msWord: 'Advanced',
+        msExcel: 'Advanced',
+        adobePhotoshop: 'Intermediate',
+        adobeIllustrator: 'Intermediate',
+        WebDevelopment:'Beginner'
+    }],
+    languagesKnown: ['English', 'Telugu','Hindi'],
+    hobbies:['ReadingBooks','Entrepreneurship','Designing','Cooking','Watching movies']
+
+}
